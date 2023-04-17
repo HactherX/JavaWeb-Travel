@@ -14,8 +14,8 @@ public class FavouriteServiceImpl implements FavoriteService {
 
     @Override
     public int favoritesQuery(int rid) {
-        int count = dao.favoritesQuery(rid);
-        return count;
+        int countX = dao.favoritesQuery(rid);
+        return countX;
     }
 
     @Override
